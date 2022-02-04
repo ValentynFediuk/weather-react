@@ -1,0 +1,21 @@
+.information {
+    text-align: center;
+}
+.temperature {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.temperature--negative {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/6963bbf342d87b3a2150bd8f59682b89.jpg);
+    -webkit-background-clip: text;
+    background-size: contain;
+    width: 100%;
+    text-align: center;
+    color: transparent;
+    font-weight: 900;
+}
+.temperature--positive {
+    font-family: "Open Sans";
+    color: #f5f5f5;
+    text-shadow: 0px -2px 4px #fff, 0px -2px 10px #FF3, 0px -10px 20px         #F90, 0px -20px 40px #C33;
+}
